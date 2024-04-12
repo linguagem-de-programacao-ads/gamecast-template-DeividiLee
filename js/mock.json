@@ -1,0 +1,34 @@
+[
+	{
+    "dataJogo": "2025-01-24T21:50:04.099Z",
+    "nome": "League of Legends",
+    "descricao": "MOBA",
+    "gamers": ["littleknightboy","jajangmyeon","Raonhn","Zozizo"],
+    "urlAssistir": "urlAssistir 1",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY9b1YF02syOdx241Kv_NCQ06WujMUAJOgyaEnymKqrw&s"
+  },
+  {
+    "dataJogo": "2024-08-08T13:21:51.362Z",
+    "nome": "Apex Legends",
+    "descricao": "Battle Royale",
+    "gamers": ["littleknightboy","jajangmyeon","Raonhn","Zozizo"],
+    "urlAssistir": "urlAssistir 2",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdXwLGa4nfct9qvXF6t0XmfBSduxhq6LQh_Q&s"
+  },
+  {
+    "dataJogo": "2024-10-23T06:40:48.987Z",
+    "nome": "Super Smash Bros",
+    "descricao": "joguinho de luta",
+    "gamers": ["Mario","Luigi","Steve"],
+    "urlAssistir": "urlAssistir 3",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmTxkLNEJJEfnzhz6A9Fq41FWhM9cufjp7ODQSK9ZUzQ&s"
+  },
+	{
+    "dataJogo": "2024-10-23T06:40:48.987Z",
+    "nome": "Valorant",
+    "descricao": "FPS",
+    "gamers": ["Jett","Viper","Omen"],
+    "urlAssistir": "urlAssistir 3",
+    "urlImagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7EszEjmgWUL6BSYfYafm_dG9tyGePouOyQ1ZJ-TEOHA&s"
+  }
+]
