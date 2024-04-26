@@ -7,12 +7,20 @@ async function buscar() {
 
     const cards = document.getElementById("cards_games");
 
-    cards.innerHTML += respostaDadosAgenda.map((itemAgenda) => {
-        // porque que é itemAgenda?
+    cards.innerHTML = respostaDadosAgenda.map((itemAgenda) => {
+
+        var data = new Date(itemAgenda.dataJogo)
+
+        var dia = data.getDate().toString().padStart(2,'0');
+        var mes = data.getMonth().toString().padStart(2,'0')
+        var hora = data.getHours().toString().padStart(2,'0')
+        var minutos = data.getMinutes().toString().padStart(2,'0')
+
+        const dataFormatada = `${dia}/${mes} - ${hora}:${minutos}`
         return `
         <div class="cardItem">
         <div class="dataGame"> 
-            <img src="../imagens/calendar-solid.svg" alt=""> 20/04 21:30 
+            <img src="../imagens/calendar-solid.svg" alt=""> ${dataFormatada} 
         </div>
         <img class="img-background" src="${itemAgenda.urlImagem}" alt="">
         <div class="descricao">
